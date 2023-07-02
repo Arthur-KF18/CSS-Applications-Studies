@@ -1,3 +1,17 @@
+@import url('./cabecalho.css');
+
+@import url('./menu/menu-item.css');
+@import url('./menu/menu-link.css');
+@import url('./menu/menu-lista.css');
+
+@import url('./banner/banner.css');
+@import url('./banner/banner-imagem.css');
+@import url('./banner/banner-titulo.css');
+
+@import url('./sobre/sobre.css');
+@import url('./sobre/sobre-titulo.css');
+@import url('./sobre/sobre-descricao.css');
+
 body {
     font-family: Roboto, sans-serif;
 }
