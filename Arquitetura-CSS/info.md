@@ -77,4 +77,13 @@
 
 #### Estilizando o banner
 
+- Iremos criar uma pasta `banner` contendo __todos os arquivos de estilo relacionados ao banner da página, sendo `banner.css`, `banner-imagem.css` e `banner-titulo.css`__
+- Após isso, iremos definir os estilos do banner assim como texto que iremos inserir dentro dele
+- Há um fator importante. Utilizaremos __position__ para alinhá-lo corretamente. Porém faremos da seguinte forma:
+  - Para o título, nós iremos __definir `position: absolute` e alinhá-lo em relação ao centro com `left` e `top`__. Porém, o `absolute` está __dizendo que o texto está absoluto em relação a página, ou seja, alinhado ao centro, não do seu elemento pai, `banner`__
+  - Para resolvermos isto, iremos no `banner.css` e nele iremos adicionar o parâmetro __`Position: relative`__
+  - Isto fará com que __o título seja relativo ao seu pai, fazendo com que todos os filhos do `banner` sejam posicionados relativamente a ele__
+
+#### Estilziando o sobre
+
 - 
