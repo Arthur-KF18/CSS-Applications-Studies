@@ -1,0 +1,30 @@
+.receita {
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: 15vw;
+    gap: 1rem;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
+    padding: 1rem;
+    margin: 0.7rem;
+    border-radius: 1rem;
+}
+
+.caixa>h1 {
+    font-family: Pacifico;
+    font-size: 1.2rem;
+    text-align: center;    
+    color: #8D0606;
+    padding-bottom: 1rem;
+}
+
+.caixa>p {
+    color: #2b2b2b;
+    font-size: 1rem;
+}

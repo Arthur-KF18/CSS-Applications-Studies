@@ -86,4 +86,11 @@
 
 #### Estilziando o sobre
 
-- 
+- Iremos apenas estilizar o sobre, além de incorporar nomes corretos aos arquivos do css, __que não necessariamente precisam seguir o BEM, pode-se utilizar o hífen mesmo, o que importa é o design permanecer atômico e bem organizado, e que o nome dos arquivos sejam referentes as partes que estamos criando. A metodologia BEM anda junto aos arquivos, para facilitar o entendimento__
+
+#### Estruturando as receitas
+
+- Por mudança, decidi colocar a tag `details`, responsável por trazer o conteúdo corretamente dentro da tag, trazendo dinâmica no website
+- Criamos também, 7 novos arquivos css dentro da pasta `receitas`, onde haverá toda estilização das receitas
+
+#### Estruturando o quem somos
