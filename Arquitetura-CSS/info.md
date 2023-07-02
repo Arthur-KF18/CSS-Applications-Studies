@@ -93,4 +93,8 @@
 - Por mudança, decidi colocar a tag `details`, responsável por trazer o conteúdo corretamente dentro da tag, trazendo dinâmica no website
 - Criamos também, 7 novos arquivos css dentro da pasta `receitas`, onde haverá toda estilização das receitas
 
-#### Estruturando o quem somos
+#### Estruturando e estilizando o quem somos
+
+- Adicionaremos a base HTML e nela iremos realizar a adição dos elementos e implementar a arquitetura CSS
+- Como temos uma `tag` __única que armazena a seção do "quem somos", podemos utilizar o padrão `Camel case` para estruturar as pastas, ou seja, um `textoAssim`
+- 
