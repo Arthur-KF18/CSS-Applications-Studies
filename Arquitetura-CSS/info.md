@@ -49,3 +49,32 @@
 - __Com isso, conseguiremos simplificar bastante a manutenção e evolução do nosso projeto, podendo simplesmente criar novas pastas e/ou arquivos para adicionarmos novos componentes.__
 
 - Devemos seguir basicamente essa regra: __se o componente é composto por apenas um arquivo, ele pode ser criado na própria raiz da pasta "css"; do contrário, se for composto por vários arquivos, deveremos criar uma nova pasta para comportá-los.__
+
+#### Criando o banner e sobre
+
+- Após criarmos as classes para os elementos, nos deparamos com o fator de __nomeamento de classes, seu padrão de escrita__. Para resolvermos estes problemas, nós utilizaremos o padrão __BEM, ou, Block Element Modifier_
+- Bloco, elemento e modificador, é uma metodologia __onde podemos ter um padrão de nomeamento de classes__
+- Block é nosso `<header>`, podendo ser __qualquer `tag` do HTML__, porém, quando __este bloco possui conteúdo dentro, temos um `Element`, ou seja, um elemento dentro deste bloco. Praticamente os filhos da tag__
+- O padrão se comporta dessa forma: 
+  - bloco
+  - bloco__elemento
+  - bloco--modificador
+  - bloco__elemento--modificador
+- __temos uma classe normal para o bloco. Se quisermos adicionar um elemento para esse bloco, utilizamos `__`, se for um modificador, `--`__
+- Fazendo esta padronização, teremos como resultado:
+
+```html
+  <section class="banner">
+        <img class="banner__imagem" src="" alt="" srcset="">
+        <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2>
+  </section>
+  <section class="sobre">
+        <h2 class="sobre__titulo">Receitas para economizar e ganhar saúde</h2>
+        <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade
+        </p>
+  </section>
+```
+
+#### Estilizando o banner
+
+- 
