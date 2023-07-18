@@ -102,3 +102,31 @@
 #### Estilizando as pessoas
 
 - Criando os novos arquivos e separando-os, temos que estilizar as pessoas. Porém, é importante ressaltar que __quando a imagem é relevante para o website, ela estará presente no HTML. Caso ela seja apenas ilustrativa, ela irá estar no CSS__
+
+#### Boas práticas com imagens 
+
+- Para evitar a repetição do parâmetro `background`, podemos fazer um __shorthand__. Ele irá funcionar da seguinte forma:
+  - url da imagem
+  - repetição
+  - posicionamento
+  - Tamanho da imagem
+  - Ou seja:
+
+ ```css
+    background-image: url('../../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ ```
+
+- E para resumirmos, podemos deixar em uma única linha:
+
+```css
+background: url('../../images/banner.jpg') no-repeat center / cover;
+```
+
+- A `/` serve como uma __especificação do tamanho, se dever cobrir, conter ou permanecer da mesma forma__
+
+#### Deixando o website responsivo
+
+- 
