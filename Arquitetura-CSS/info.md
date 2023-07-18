@@ -101,3 +101,4 @@
 
 #### Estilizando as pessoas
 
+- Criando os novos arquivos e separando-os, temos que estilizar as pessoas. Porém, é importante ressaltar que __quando a imagem é relevante para o website, ela estará presente no HTML. Caso ela seja apenas ilustrativa, ela irá estar no CSS__

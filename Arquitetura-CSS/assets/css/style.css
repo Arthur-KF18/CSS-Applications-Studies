@@ -24,6 +24,13 @@
 @import url('./quem/quemSomos-titulo.css');
 @import url('./quem/quemSomos-descricao.css');
 
+@import url('pessoas.css');
+@import url('./pessoa/pessoa.css');
+@import url('./pessoa/pessoa-nome.css');
+@import url('./pessoa/pessoa-funcao.css');
+@import url('./pessoa/pessoa-imagem.css');
+
+
 
 body {
     font-family: Roboto, sans-serif;
