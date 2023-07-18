@@ -96,5 +96,8 @@
 #### Estruturando e estilizando o quem somos
 
 - Adicionaremos a base HTML e nela iremos realizar a adição dos elementos e implementar a arquitetura CSS
-- Como temos uma `tag` __única que armazena a seção do "quem somos", podemos utilizar o padrão `Camel case` para estruturar as pastas, ou seja, um `textoAssim`
-- 
+- Como temos uma `tag` __única que armazena a seção do "quem somos", podemos utilizar o padrão `Camel case` para estruturar as pastas, ou seja, um `textoAssim`__
+- Este tipo de estrutura é aplicada dentro do __design atômico de desenvolvimento do CSS__
+
+#### Estilizando as pessoas
+
