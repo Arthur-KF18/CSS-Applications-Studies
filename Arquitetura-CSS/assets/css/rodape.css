@@ -8,7 +8,18 @@
 }
 
 .rodape__texto {
-    color: #fdfdfd;
-    font-size: 1.3rem;
+    color: #fdfdfd;    
     font-weight: 300;
+}
+
+@media screen and (min-width: 0) {
+    .rodape__texto{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape__texto{
+        font-size: 1.3rem;
+    }
 }

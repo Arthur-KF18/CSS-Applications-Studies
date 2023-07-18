@@ -5,3 +5,19 @@
     background-color: #f9f9f9;
     padding: 0 2rem 0 2rem;
 }
+
+@media screen and (min-width: 0) {
+    .cabecalho{
+        justify-content: center;
+        padding: 2rem 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        justify-content: space-between;
+        padding: 1rem 5rem;
+        width: auto;
+    }
+}
