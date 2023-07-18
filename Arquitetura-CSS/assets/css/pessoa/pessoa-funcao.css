@@ -1,8 +1,8 @@
 .pessoa__funcao {
-    text-transform: lowercase;
     color: #8C8888;
     font-family: Roboto;
     font-size: 1.4375rem;
     font-style: normal;
     font-weight: 400;
+    text-transform: lowercase;
 }
